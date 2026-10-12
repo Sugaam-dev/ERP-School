@@ -46,8 +46,8 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
           {/* Brand */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0D887E] to-[#79D4BD] flex items-center justify-center text-white font-extrabold text-base tracking-tighter shadow-md group-hover:scale-105 transition-transform">
-              PMRG
+            <div className="h-11 px-2.5 py-1 rounded-xl bg-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform border border-slate-200/20">
+              <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-8 w-auto object-contain" />
             </div>
             <div>
               <div className="text-base font-bold tracking-tight text-white leading-none">
@@ -920,8 +920,8 @@ export const LandingPage: React.FC = () => {
             {/* Col 1 */}
             <div className="md:col-span-5 space-y-4">
               <div className="flex items-center space-x-3">
-                <div className="w-9 h-9 rounded-lg bg-[#0D887E] flex items-center justify-center text-white font-black text-sm">
-                  PMRG
+                <div className="h-10 px-2 py-1 rounded-lg bg-white flex items-center justify-center shadow-md">
+                  <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-7 w-auto object-contain" />
                 </div>
                 <div>
                   <h4 className="font-bold text-white text-base">PMRG Solution LLP</h4>

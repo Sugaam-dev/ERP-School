@@ -58,10 +58,10 @@ export const DemoLoginPage: React.FC = () => {
       {/* Top Simple Bar */}
       <div className="bg-[#0B263A] text-white px-4 sm:px-8 py-3.5 flex items-center justify-between border-b border-slate-800">
         <Link to="/" className="flex items-center space-x-2.5">
-          <div className="w-8 h-8 rounded-lg bg-[#0D887E] flex items-center justify-center font-black text-white text-xs">
-            PMRG
+          <div className="h-9 px-2 py-0.5 rounded-lg bg-white flex items-center justify-center shadow-xs">
+            <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-6 w-auto object-contain" />
           </div>
-          <span className="font-bold text-sm tracking-tight">Ayurveda College ERP</span>
+          <span className="font-bold text-sm tracking-tight text-white">Ayurveda College ERP</span>
         </Link>
         <Link
           to="/"
@@ -77,9 +77,12 @@ export const DemoLoginPage: React.FC = () => {
           {/* Left Column: Form */}
           <div className="md:col-span-7 p-6 sm:p-10 flex flex-col justify-between">
             <div>
-              <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-teal-50 border border-teal-200 text-[#0D887E] text-xs font-semibold mb-4">
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Interactive Client Demonstration</span>
+              <div className="flex items-center justify-between mb-5">
+                <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-9 w-auto object-contain" />
+                <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-teal-50 border border-teal-200 text-[#0D887E] text-xs font-semibold">
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Client Demo</span>
+                </div>
               </div>
 
               <h2 className="text-2xl sm:text-3xl font-extrabold text-[#0B263A] tracking-tight">

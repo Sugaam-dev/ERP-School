@@ -316,10 +316,13 @@ export const FinancePage: React.FC = () => {
           <div className="p-5 border-2 border-slate-200 rounded-2xl bg-white space-y-4">
             {/* Receipt Header */}
             <div className="flex items-start justify-between border-b pb-3 border-slate-200">
-              <div>
-                <h4 className="font-extrabold text-[#0B263A] text-sm">PMRG AYURVEDA COLLEGE</h4>
-                <p className="text-[10px] text-slate-500">Affiliated to State Ayush University</p>
-                <p className="text-[10px] text-slate-400">Office of Chief Accounts Officer</p>
+              <div className="flex items-center space-x-3">
+                <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-9 w-auto object-contain" />
+                <div>
+                  <h4 className="font-extrabold text-[#0B263A] text-sm leading-tight">PMRG AYURVEDA COLLEGE</h4>
+                  <p className="text-[10px] text-slate-500">Affiliated to State Ayush University</p>
+                  <p className="text-[10px] text-slate-400">Office of Chief Accounts Officer</p>
+                </div>
               </div>
               <div className="text-right">
                 <span className="font-mono font-bold text-emerald-700 text-sm block">

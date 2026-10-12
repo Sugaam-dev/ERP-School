@@ -183,21 +183,21 @@ export const AppLayout: React.FC = () => {
           <div className="h-16 flex items-center justify-between px-4 border-b border-slate-800 bg-[#081E2E]">
             {!isSidebarCollapsed ? (
               <Link to="/app/dashboard" className="flex items-center space-x-2.5 overflow-hidden">
-                <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#0D887E] to-[#79D4BD] flex items-center justify-center text-white font-black text-sm tracking-tighter shadow-md">
-                  PMRG
+                <div className="h-9 px-2 py-0.5 rounded-lg bg-white flex items-center justify-center shadow-xs flex-shrink-0">
+                  <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-6 w-auto object-contain" />
                 </div>
-                <div>
-                  <h1 className="font-bold text-white text-sm tracking-tight leading-none">
-                    AYURVEDA ERP
+                <div className="truncate">
+                  <h1 className="font-bold text-white text-xs tracking-tight leading-tight truncate">
+                    PMRG SOLUTION
                   </h1>
-                  <span className="text-[10px] text-[#79D4BD] font-medium tracking-wide">
-                    Digital Campus Suite
+                  <span className="text-[10px] text-[#79D4BD] font-medium tracking-wide block truncate">
+                    Ayurveda College ERP
                   </span>
                 </div>
               </Link>
             ) : (
-              <div className="mx-auto w-9 h-9 rounded-lg bg-[#0D887E] flex items-center justify-center text-white font-black text-sm shadow">
-                P
+              <div className="mx-auto w-10 h-10 rounded-lg bg-white p-1 flex items-center justify-center shadow-xs">
+                <img src="/pmrg-logo.png" alt="PMRG" className="w-8 h-8 object-contain" />
               </div>
             )}
             <button
@@ -318,12 +318,12 @@ export const AppLayout: React.FC = () => {
             <div className="relative w-72 bg-[#0B263A] text-slate-200 h-full flex flex-col z-10 shadow-2xl">
               <div className="h-16 flex items-center justify-between px-4 border-b border-slate-800">
                 <div className="flex items-center space-x-2.5">
-                  <div className="w-8 h-8 rounded bg-[#0D887E] flex items-center justify-center text-white font-bold text-xs">
-                    PMRG
+                  <div className="h-9 px-2 py-0.5 rounded-lg bg-white flex items-center justify-center shadow-xs flex-shrink-0">
+                    <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-6 w-auto object-contain" />
                   </div>
                   <div>
-                    <h2 className="font-bold text-white text-sm">AYURVEDA ERP</h2>
-                    <p className="text-[10px] text-[#79D4BD]">Digital Campus Solution</p>
+                    <h2 className="font-bold text-white text-xs">PMRG SOLUTION</h2>
+                    <p className="text-[10px] text-[#79D4BD]">Ayurveda College ERP</p>
                   </div>
                 </div>
                 <button

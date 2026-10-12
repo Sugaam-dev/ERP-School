@@ -217,6 +217,9 @@ export const SettingsPage: React.FC = () => {
 
           <div className="space-y-4">
             <div className="bg-white rounded-xl border border-slate-200 p-5 shadow-sm space-y-4">
+              <div className="p-3.5 bg-slate-50 border border-slate-200 rounded-xl flex items-center justify-center">
+                <img src="/pmrg-logo.png" alt="PMRG Solution" className="h-10 w-auto object-contain" />
+              </div>
               <h4 className="font-semibold text-[#0B263A] text-sm flex items-center gap-2">
                 <Palette className="w-4 h-4 text-[#0D887E]" />
                 PMRG Solution LLP Design System
