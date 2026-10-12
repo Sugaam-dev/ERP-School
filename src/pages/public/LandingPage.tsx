@@ -261,7 +261,7 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold uppercase tracking-wider text-[#0D887E]">
-              Slide 02 / 11 — The College Opportunity
+              The College Opportunity
             </span>
             <h2 className="text-3xl font-extrabold text-[#0B263A] tracking-tight mt-2">
               Solve the Gaps Between Departments
@@ -382,7 +382,7 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold uppercase tracking-wider text-[#0D887E]">
-              Slide 03 / 11 — Proposed Solution Blueprint
+              Proposed Solution Blueprint
             </span>
             <h2 className="text-3xl font-extrabold text-[#0B263A] tracking-tight mt-2">
               Connected Platform Architecture
@@ -710,7 +710,7 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold uppercase tracking-wider text-[#0D887E]">
-              Slide 08 / 11 — AI Assistance & Institutional Governance
+              AI Assistance & Institutional Governance
             </span>
             <h2 className="text-3xl font-extrabold text-[#0B263A] tracking-tight mt-2">
               Helpful Automation. Accountable Decisions.
@@ -785,7 +785,7 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold uppercase tracking-wider text-[#0D887E]">
-              Slide 09 / 11 — Benefits & Measurable Outcomes
+              Benefits & Measurable Outcomes
             </span>
             <h2 className="text-3xl font-extrabold text-[#0B263A] tracking-tight mt-2">
               Measure Success in Daily Institutional Work
@@ -851,7 +851,7 @@ export const LandingPage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <span className="text-xs font-bold uppercase tracking-wider text-[#0D887E]">
-              Slide 10 / 11 — Implementation Approach
+              Implementation Approach
             </span>
             <h2 className="text-3xl font-extrabold text-[#0B263A] tracking-tight mt-2">
               Start with a Focused Pilot. Expand After Proof.
